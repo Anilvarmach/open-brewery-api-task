@@ -1,5 +1,8 @@
+/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Uchen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+/* BODY STYLE */
 body{
   background-image: linear-gradient(to right, rgba(73, 57, 3, 0.5), rgba(73,57,3,0.4) ), url("https://i.pinimg.com/originals/ea/89/d2/ea89d29167d075558fa9490d2d7ffab4.jpg");
   background-repeat: no-repeat;
@@ -12,6 +15,7 @@ body{
   height: 100vh;
 }
 
+/* NAVBAR STYLE */
 .navbar {
   background-color: rgba(73, 57, 3, 0.5);
 }
@@ -44,6 +48,8 @@ body{
   font-size: 1.5rem;
   padding-right: 3rem;
 }
+
+/* MAIN CONTENT STYLE */
 .row {
   display: flex;
   flex-direction: row;
@@ -88,6 +94,7 @@ body{
   padding-right: 5px;
 }
 
+/* MEDIA QUERIES */
 @media screen and (max-width: 1000px) {
   .card {
     margin-left: 20px;
