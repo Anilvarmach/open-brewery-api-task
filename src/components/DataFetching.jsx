@@ -22,7 +22,7 @@ export default function DataFetching() {
                                 <div className="row">
                                         <div className="col "><p className="card-title"><i className="fas fa-beer"></i> {brewery.brewery_type} </p></div>
                                     <div className="col ">
-                                        <i className="fas fa-map-marker-alt"></i> <p className="card-text">{brewery.street}, <br /> {brewery.city}, <br />{brewery.state}, <br /> {brewery.country}</p>
+                                        <i className="fas fa-map-marker-alt"></i> <p className="card-text"> {brewery.street ? (brewery.street) : (<span>None</span>)}, <br /> {brewery.city}, <br />{brewery.state}, <br /> {brewery.country}</p>
                                     </div>
                                 </div>
                             </div>
