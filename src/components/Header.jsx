@@ -22,7 +22,7 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <p className="navbar-brand"><i className="fas fa-glass-cheers"></i>Brewery</p>
                     <div className="form-inline ml-auto my-2 my-lg-0">
-                        <a href="http://4" target="_blank" rel="noopener noreferrer"><i className="fab fa-github github "></i></a>
+                       <a href="https://github.com/Anilvarmach/open-brewery-api-task" target="_blank" rel="noopener noreferrer"><i className="fab fa-github github "></i></a>
                     </div>
                 </div>
             </nav>
