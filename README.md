@@ -17,6 +17,6 @@ and Axios is used for fetching data from api
 
 
 ### APIS USED
-Open Brewery DB : https://www.openbrewerydb.org/documentation/01-listbreweries
-Data live Preview : https://api.openbrewerydb.org/breweries
+1. Open Brewery DB : https://www.openbrewerydb.org/documentation/01-listbreweries
+2. Data live Preview : https://api.openbrewerydb.org/breweries
 
